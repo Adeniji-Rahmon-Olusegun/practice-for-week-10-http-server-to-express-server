@@ -47,7 +47,7 @@ app.use(express.json());
 // Your code here
 app.get('/users/:userId', (req, res) => {
     const userId = req.params.userId;
-    res.send(`User's Id currently in session is: ${userId}`);
+    res.send(`User details for userId: ${userId}`);
 })
 // HTTP Server: Set port and listen for requests
 // const port = 5000;
